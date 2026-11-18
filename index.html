@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e5">
+  <meta name="description" content="You are warmly invited to celebrate the church wedding of Adarsh and Sujitha on 13 January 2027.">
+  <title>Adarsh &amp; Sujitha | Church Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="envelope" id="envelope" aria-label="Wedding invitation envelope">
+    <div class="envelope-card">
+      <p class="eyebrow">A day of love and blessing</p>
+      <span class="monogram" aria-hidden="true">A <i>&amp;</i> S</span>
+      <p class="envelope-names">Adarsh &amp; Sujitha</p>
+      <button class="open-button" id="open-invitation">Open invitation <span aria-hidden="true">↗</span></button>
+    </div>
+    <p class="envelope-note">With love, for you</p>
+  </div>
+
+  <main id="invitation" class="invitation" aria-hidden="true">
+    <header class="hero section">
+      <div class="hero-arch" aria-hidden="true"></div>
+      <p class="eyebrow">Together with our families</p>
+      <h1>Adarsh <i>&amp;</i><br>Sujitha</h1>
+      <p class="hero-subtitle">joyfully invite you to celebrate their<br>church wedding</p>
+      <div class="rule"><span>✦</span></div>
+      <p class="hero-date">Wednesday, 13 January 2027</p>
+      <p class="hero-time">10:00 AM – 12:00 PM</p>
+      <a class="scroll-link" href="#invitation-details">Discover the invitation <span aria-hidden="true">↓</span></a>
+    </header>
+
+    <section class="welcome section">
+      <p class="eyebrow">A note from us</p>
+      <h2>WITH GRATEFUL HEARTS</h2>
+      <p class="body-copy">With the blessings of our families, we invite you to join us as we begin our married life together. Your presence and prayers would make our day even more special.</p>
+    </section>
+
+    <section class="invitation-section section" id="invitation-details">
+      <p class="eyebrow">You are warmly invited</p>
+      <h2>THE CHURCH WEDDING</h2>
+      <p class="section-copy">A special day, shared with the people we love.</p>
+      <div class="reveal-card">
+        <span class="reveal-topline">Adarsh <i>&amp;</i> Sujitha</span>
+        <button class="reveal-button" id="reveal-details" aria-expanded="false" aria-controls="church-details">
+          <span class="reveal-seal" aria-hidden="true">A<span>&amp;</span>S</span>
+          <span class="reveal-label">Open the wedding details</span>
+          <span class="reveal-hint">Tap to reveal</span>
+        </button>
+        <div class="church-details" id="church-details" aria-hidden="true" hidden>
+          <div class="detail-rule"><span>✦</span></div>
+          <p class="detail-label">Church Wedding</p>
+          <p class="detail-date">Wednesday, 13 January 2027</p>
+          <p class="detail-time">10:00 AM – 12:00 PM</p>
+          <a class="map-link" href="https://maps.app.goo.gl/2H3wjDizwSNKPj6T6" target="_blank" rel="noopener noreferrer">View ceremony location <span aria-hidden="true">↗</span></a>
+          <p class="detail-blessing">We look forward to celebrating with you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="countdown section">
+      <p class="eyebrow">Counting down</p>
+      <h2>UNTIL WE SAY “I DO”</h2>
+      <div class="timer" aria-label="Countdown to the church wedding">
+        <div><strong id="days">000</strong><span>Days</span></div><i>:</i>
+        <div><strong id="hours">00</strong><span>Hours</span></div><i>:</i>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div><i>:</i>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <footer class="footer section">
+      <span class="footer-mark" aria-hidden="true">A <i>&amp;</i> S</span>
+      <p>With love</p>
+      <h2>Adarsh &amp; Sujitha</h2>
+      <small>13 January 2027</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
