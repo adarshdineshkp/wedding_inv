@@ -20,15 +20,3 @@ document.getElementById("reveal-details").addEventListener("click", event => {
   button.disabled = true;
 });
 
-const weddingStarts = new Date("2027-01-13T10:00:00");
-function updateCountdown() {
-  const difference = weddingStarts.getTime() - Date.now();
-  const values = difference > 0
-    ? [Math.floor(difference / 86400000), Math.floor(difference / 3600000) % 24, Math.floor(difference / 60000) % 60, Math.floor(difference / 1000) % 60]
-    : [0, 0, 0, 0];
-  ["days", "hours", "minutes", "seconds"].forEach((id, index) => {
-    document.getElementById(id).textContent = String(values[index]).padStart(index === 0 ? 3 : 2, "0");
-  });
-}
-updateCountdown();
-setInterval(updateCountdown, 1000);
