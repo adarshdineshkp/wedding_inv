@@ -99,6 +99,7 @@ h2 { margin: 0 0 22px; color: var(--navy); font-size: 14px; font-weight: 500; le
 .detail-label { margin-bottom: 3px; color: var(--gold); font-size: 8px; font-weight: 600; letter-spacing: .21em; text-transform: uppercase; }
 .detail-date { margin: 0; color: var(--navy); font: 23px var(--serif); }
 .detail-time { margin: 3px 0 0; color: var(--muted); font-size: 10px; letter-spacing: .13em; }
+.detail-venue { max-width: 320px; margin: 17px auto 0; color: var(--navy); font: 17px/1.45 var(--serif); }
 .map-link { display: inline-block; margin-top: 22px; padding: 10px 17px; border: 1px solid var(--gold); color: var(--navy); font-size: 8px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; transition: color .2s,background .2s; }
 .map-link:hover { background: var(--navy); color: var(--paper-light); }
 .map-link span { margin-left: 5px; color: var(--gold); }
