@@ -10,7 +10,7 @@ document.getElementById("open-invitation").addEventListener("click", () => {
 
 document.getElementById("reveal-details").addEventListener("click", event => {
   const button = event.currentTarget;
-  const details = document.getElementById("church-details");
+  const details = document.getElementById("wedding-details");
   details.hidden = false;
   requestAnimationFrame(() => details.classList.add("visible"));
   details.setAttribute("aria-hidden", "false");

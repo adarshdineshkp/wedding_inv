@@ -48,7 +48,7 @@ h2 { margin: 0 0 22px; color: var(--navy); font-size: 14px; font-weight: 500; le
 .invitation.opened { opacity: 1; }
 .js-hidden { overflow: hidden; }
 
-/* Church-only hero */
+/* Wedding invitation hero */
 .hero { display: flex; min-height: 900px; flex-direction: column; justify-content: center; align-items: center; overflow: hidden; isolation: isolate; padding: 125px 25px 105px; }
 .hero-arch { position: absolute; z-index: -1; top: 50%; left: 50%; width: min(76vw,620px); height: min(92vw,700px); border: 1px solid rgba(185,154,98,.42); border-bottom: 0; border-radius: 340px 340px 0 0; transform: translate(-50%,-48%); }
 .hero-arch:before { position: absolute; inset: 12px; border: 1px solid rgba(185,154,98,.24); border-bottom: 0; border-radius: 325px 325px 0 0; content: ""; }
@@ -91,8 +91,8 @@ h2 { margin: 0 0 22px; color: var(--navy); font-size: 14px; font-weight: 500; le
 .reveal-label { color: var(--navy); font: 24px var(--serif); }
 .reveal-hint { margin-top: 7px; color: #81817a; font-size: 8px; font-weight: 600; letter-spacing: .19em; text-transform: uppercase; }
 .reveal-button:disabled .reveal-hint { color: var(--gold); }
-.church-details { padding-top: 23px; border-top: 1px solid rgba(185,154,98,.45); opacity: 0; transform: translateY(14px); transition: opacity .65s,transform .65s; }
-.church-details.visible { opacity: 1; transform: translateY(0); }
+.wedding-details { padding-top: 23px; border-top: 1px solid rgba(185,154,98,.45); opacity: 0; transform: translateY(14px); transition: opacity .65s,transform .65s; }
+.wedding-details.visible { opacity: 1; transform: translateY(0); }
 .detail-rule { display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 13px; color: var(--gold); }
 .detail-rule:before,.detail-rule:after { width: 60px; border-top: 1px solid var(--line); content: ""; }
 .detail-rule span { font-size: 11px; }
