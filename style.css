@@ -39,7 +39,7 @@ h2 { margin: 0 0 22px; color: var(--navy); font-size: 14px; font-weight: 500; le
 .envelope-card .eyebrow { margin-bottom: 12px; }
 .monogram { display: block; color: var(--navy); font: 35px var(--serif); }
 .monogram i,.footer-mark i { color: var(--gold); font-weight: 400; }
-.envelope-names { margin: 8px 0 26px; color: var(--navy); font: 31px var(--serif); }
+.envelope-names { margin: 8px 0 26px; color: var(--navy); font: clamp(17px,5.5vw,31px) var(--serif); }
 .open-button { padding: 0 0 7px; border: 0; border-bottom: 1px solid var(--gold); background: none; color: var(--navy); font-size: 9px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; cursor: pointer; }
 .open-button span { margin-left: 6px; color: var(--gold); font-size: 15px; }
 .envelope-note { position: absolute; bottom: 8%; color: #817967; font: italic 14px var(--serif); }
